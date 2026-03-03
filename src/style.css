@@ -16,7 +16,9 @@
   font-display: swap;
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -64,7 +66,7 @@ body {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.search__input-big {
+.search__input--big {
   height: 70px;
   padding: 26px 26px 26px 62px;
   font-size: 16px;
@@ -72,7 +74,7 @@ body {
   background-size: 19px;
 }
 
-.search__input-small {
+.search__input--small {
   height: 42px;
   padding: 12px 12px 12px 33px;
   font-size: 14px;
